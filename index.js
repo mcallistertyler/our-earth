@@ -144,6 +144,16 @@ var Tree = function() {
     tronc.add(arbre);
 }
 
+var Plane = function() {
+    this.mesh = new THREE.Object3D();
+    this.mesh.name = "plane";
+
+    const geomPlane = new THREE.BoxGeometry(0.020, 0.02, 0.050);
+    const matPlane = new THREE.MeshBasicMaterial({color: "grey"});
+    const planeBody = new THREE.Mesh(geomPlane, matPlane);
+
+}
+
 function init() {
     document.body.innerHTML = '';
     scene = new THREE.Scene();
