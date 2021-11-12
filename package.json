@@ -1,0 +1,15 @@
+{
+  "name": "afk-3dworld",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "three": "^0.134.0"
+  },
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "devDependencies": {
+    "parcel": "latest"
+  }
+}

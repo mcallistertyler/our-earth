@@ -1,0 +1,41 @@
+#info {
+	position: absolute;
+	top: 10px;
+	width: 100%;
+	text-align: center;
+	z-index: 99;
+	color: white;
+	display:block;
+	font-family: 'Nunito', sans-serif;
+}
+
+#tree-count {
+	position: absolute;
+	z-index: 99;
+	text-align: left;
+	color: white;
+	display: block;
+	bottom: 0px;
+	font-family: 'Nunito', sans-serif;
+}
+
+.container {
+	position: absolute;
+	z-index: 99;
+	display: block;
+	outline: 5px dotted pink;
+	padding: 10px;
+	width: 20em;
+	-webkit-backdrop-filter: blur(25px);
+	backdrop-filter: blur(25px);
+}
+
+.facts {
+	z-index: 99;
+	text-align: left;
+	color: white;
+	width: -moz-fit-content;
+	width: fit-content;
+	height: fit-content;
+	font-family: 'Nunito', sans-serif;
+}
